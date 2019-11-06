@@ -1,10 +1,9 @@
 import numpy as np
 import pandas as pd
-from decision_tree import DecisionTree
+from random_forest import DecisionTree
 
 
 class RandomForest():
-
     def __init__(self, n_estimators, sample_size, min_leaf=1):
         self.n_estimators = n_estimators
         self.sample_size = sample_size
@@ -13,7 +12,7 @@ class RandomForest():
 
     def create_tree(self, x, y):
         idxs = np.random.randint(len(y), size=self.sample_size)
-        return DecisionTree(x.iloc[idxs], y[idxs], self.min_leaf)
+        return DecisionTree(x.iloc[idxs], y.iloc[idxs], self.min_leaf)
 
     def fit(self, x, y):
         self.trees = None

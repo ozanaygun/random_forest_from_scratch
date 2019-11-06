@@ -11,7 +11,7 @@ class DecisionTree():
         self.row_count = x.shape[0]
         self.idxs = np.array(range(self.row_count))
         self.category_count = x.shape[1]
-        self.val = np.mean(y[self.idxs])
+        self.val = np.mean(y.values[self.idxs])
         self.score = float('inf')
 
         self.left_decision_tree = None
@@ -100,7 +100,7 @@ class DecisionTree():
         return self.score == float('inf')
 
     def predict(self, x):
-        rows = [self.predict_row(x_i) for x_i in x]
+        rows = [self.predict_row(x_i[1]) for x_i in x.iterrows()]
         return np.array(rows)
 
     def predict_row(self, x_i):
