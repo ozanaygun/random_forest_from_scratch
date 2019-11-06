@@ -6,6 +6,7 @@ This repo contains my implmentation of [Random Forest](https://en.wikipedia.org/
 2. Copy the [random_forest](https://github.com/geekyJock8/random_forest_from_scratch/tree/master/random_forest) folder into the root of your project.
 
 ## Use
+For a sample usage check [this](https://github.com/geekyJock8/random_forest_from_scratch/blob/master/how_to_use.ipynb) notebook.
 ### Import
 from random_forest import RandomForest
 ### Class RandomForest
