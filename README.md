@@ -26,7 +26,7 @@ RandomForest(n_estimators, sample_size, min_leaf)
 4. Handling of other types of data inputs.
 
 #
-*All this would have been possible without [Jeremy Howard](https://twitter.com/jeremyphoward?lang=en). Most of the stuff in this implementation is taken from his [ML Course](http://course18.fast.ai/ml.html).*
+*All this would not have been possible without [Jeremy Howard](https://twitter.com/jeremyphoward?lang=en). Most of the stuff in this implementation is taken from his [ML Course](http://course18.fast.ai/ml.html).*
 
 #
 Contributions are welcome
