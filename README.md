@@ -1,5 +1,5 @@
 # random_forest_from_scratch
-This repo contains my implmentation of [Random Forest](https://en.wikipedia.org/wiki/Random_forest) in python as a package. It's not completely from scratch as I've used numpy and pandas for data handling.
+This repo contains my implementation of [Random Forest](https://en.wikipedia.org/wiki/Random_forest) in python as a package. It's not completely from scratch as I've used numpy and pandas for data handling.
 
 ## Install
 1. Download or Clone the repo.
